@@ -1,0 +1,28 @@
+{
+  "name": "jikken201801",
+  "version": "1.0.0",
+  "description": "見守り実験用 Database Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.nm.cs.uec.ac.jp/git/13tock/jikken201801.git"
+  },
+  "author": "kanlaya",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "http": "^0.0.0",
+    "json-size": "^1.0.0",
+    "moment": "^2.20.1",
+    "mongodb": "^3.0.1",
+    "mqtt": "^2.1.3",
+    "node-cron": "^1.1.2",
+    "node-feedparser": "^1.0.1",
+    "request": "^2.79.0",
+    "socket.io": "^1.7.2"
+  }
+}
