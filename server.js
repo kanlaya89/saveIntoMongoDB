@@ -14,7 +14,6 @@ MongoClient.connect(url, function(err, client) {
 
 	var mqtt = require("./mqtt").mqttClient
 
-
 	server = http.createServer(app)
 
 	server.listen(3000, function() {
