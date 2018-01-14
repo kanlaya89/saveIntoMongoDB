@@ -7,5 +7,11 @@ module.exports = {
 		Port: 16290,
 		SSL_Port: 26290,
 		Websockets_Port: 36290
+	},
+	// Authentication
+	MongoDB : {
+		User: 'admin',
+		Password: 'admin',
+		DBName : 'jikken201801'
 	}
 }
